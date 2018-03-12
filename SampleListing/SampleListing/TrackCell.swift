@@ -15,6 +15,8 @@ class TrackCell: UITableViewCell {
             configureView()
         }
     }
+    
+    static let reuseIdentifier = "TrackCell"
 
     override func awakeFromNib() {
         super.awakeFromNib()
