@@ -9,6 +9,7 @@
 import Foundation
 
 struct Track {
+class Track {
     var name = ""
     var author = ""
     var imageURL = ""
